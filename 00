@@ -1,5 +1,6 @@
 1) What is Devops
 2) Why Devops
+3) SDLC
 
 1) What is Devops
     A Culture that improves the organizations the ability to deliver the applications.
@@ -20,4 +21,35 @@
     WIth DevOps, we use automation and CI/CD pipelines to build, test, and deploy applications continously.
     This reduces manual errors, improves code quality and speeds up releases.
     In my understanding, DevOps is not just tools, it is a culture where teams work together and take shared
-responsibility for the entire app lifecycle.
+    responsibility for the entire app lifecycle.
+
+3) SDLC
+      Software Development Life Cycle
+
+                                          -------------
+                              ---- > |     Planning     | ----------      
+                              |          -------------             |
+                              |                                    \/
+                         -------------                         --------------
+                        |   Deploy    |                        |  Defining    |
+                        -------------                           -------------- 
+                              /\                                    |
+                              |                                    \/
+                         -------------                         -----------------
+                        |   Testing    |                     |    Designing    |
+                        -------------                         ----------------- 
+                              /\                                    |
+                              |                                    \/                
+                                             ------------- 
+                              < -----       |   Building    | <---|
+                                            -------------
+                
+            
+            |- -       Building     ->     Developing
+            |        (Developer)              Developer -> Git
+            |---        Testing     
+            |          (QE)          ->     Testing
+            |---      Deployment     -> Prod     -> Customer
+
+        DevOps enginer fastens the process, so he improvess the process to deliver the code quickly and
+        by ensuring all of the above steps are being automated .(Automation dierectly proportional to efficiency)    
