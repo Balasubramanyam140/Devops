@@ -13,3 +13,11 @@
       4. Moniotring 
       5. Testing
   
+2) Why Devops
+    Devops is imp bec it helps in faster and reliabe delivery of app by improving collaboration btw 
+    development and operations teams. In traditional models, there was a gap btw development and delpoyement
+    which caused delays and issues.
+    WIth DevOps, we use automation and CI/CD pipelines to build, test, and deploy applications continously.
+    This reduces manual errors, improves code quality and speeds up releases.
+    In my understanding, DevOps is not just tools, it is a culture where teams work together and take shared
+responsibility for the entire app lifecycle.
