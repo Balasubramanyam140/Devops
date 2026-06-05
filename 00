@@ -43,7 +43,8 @@
                                              ------------- 
                               < -----       |   Building    | <---|
                                             -------------
-                
+        In DevOps, SDLC is transformed into a continuous lifecycle where planning, coding, building, testing, deployment, 
+        and monitoring happen in an automated and iterative loop for faster and reliable software delivery.
             
             |- -       Building     ->     Developing
             |        (Developer)              Developer -> Git
