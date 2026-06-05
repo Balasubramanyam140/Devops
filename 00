@@ -2,6 +2,10 @@
 2) Why Devops
 3) SDLC
 4) What is Jira?
+5) What is Agile?
+6) What is Scrum?
+
+
 1) What is Devops
     A Culture that improves the organizations the ability to deliver the applications.
 
@@ -55,8 +59,36 @@
         DevOps enginer fastens the process, so he improvess the process to deliver the code quickly and
         by ensuring all of the above steps are being automated .(Automation dierectly proportional to efficiency)    
 
-
 4) What is Jira?
         Jira is a project management + issue tracking tool developed by Atlassian.
                                     or
         Jira is used to plan work, track tasks and manage software projects.
+
+5) What is Agile?
+     Agile is a method/mindset used to develop software faster and flexibly.
+                                        or
+     Agile means developing software in small parts and continously improving it based on feedback.
+
+        Features
+        -------
+            - Flexible
+            - Continous feedback
+            - Small releases
+            - Team collaboration
+
+6) What is Scrum?
+    Scrum is a framework inside Agile.
+    Scrum is a way to implement Agile using fixed cycles called sprints and defined roles.
+    Scrum helps teams:-
+        * Work in short cycles(sprints)
+        * Track progress daily
+        * Deliver working software frequently
+
+    Scrum Flow
+    ----------
+    1.    Backlog → List of tasks
+    2.   Sprint Planning → Select tasks
+    3.    Sprint (work)
+    4.    Daily Stand-up → Daily 15-min meeting
+    5.    Deliver product increment
+    
