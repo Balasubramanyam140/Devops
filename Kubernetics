@@ -2,6 +2,9 @@
 01) Why do we need Kubernetes?
 02) Docker vs Kubernetes
 03) Cluster, Node, and Pod
+04) Control Plane vs Worker Node
+
+___________________________________________________________________________________________________________________________________________________________
   
 00) what is Kubernetics 
   Kubernetes is an open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications.
@@ -46,7 +49,42 @@
         Pod = Smallest deployable unit that runs your container(s)
         Container = Your actual packaged application
 
-        A Kubernetes cluster consists of nodes. Nodes are machines that run workloads, and Pods are the smallest deployable 
-         units in Kubernetes that contain one or more containers.
+04) Control Plane vs Worker Node
+          Cluster → Nodes → Pods → Containers
+          But who controls all these Nodes and Pods?
+            Kubernetes mainly has two sides:          
+                Control Plane = manages the cluster 🧠
+                Worker Nodes = run your applications 💻
 
+          A Kubernetes cluster consists of nodes. Nodes are machines that run workloads, and Pods are the smallest deployable 
+           units in Kubernetes that contain one or more containers.
 
+            
+            1. Control Plane
+              ---------------
+                    Think of the Control Plane as the brain of Kubernetes.
+                    It decides things like:                    
+                        Where should a Pod run?
+                        Is a Pod running correctly?
+                        Did a Pod crash?
+                        Do we need more Pods?
+                        Which Worker Node should run the application?
+            
+                    So remember:                
+                        Control Plane = controls and manages the Kubernetes cluster.                    
+                        We'll learn its components like API Server, Scheduler, Controller Manager, and etcd separately later.
+                        
+            2. Worker Node
+            --------------
+                  A Worker Node is the machine where your actual application workloads run.                  
+                  For example, your Spring Boot application:                      
+                      Worker Node → Pod → Container → Spring Boot application                      
+                      A cluster can have multiple Worker Nodes.
+                      
+                  Simple real-world example
+                      Think of a restaurant:                      
+                          👨‍💼 Control Plane = Manager
+                          👨‍🍳 Worker Nodes = Workers
+                          📦 Pods = Work assigned to workers                      
+                      The manager decides what needs to happen and where.                      
+                      The workers actually perform the work.
