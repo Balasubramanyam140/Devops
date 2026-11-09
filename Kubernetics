@@ -1,0 +1,52 @@
+00) what is Kubernetics 
+01) Why do we need Kubernetes?
+02) Docker vs Kubernetes
+03) Cluster, Node, and Pod
+  
+00) what is Kubernetics 
+  Kubernetes is an open-source container orchestration platform used to automate the deployment, scaling, and management of containerized applications.
+                                 or
+  Kubernetes is used to deploy, manage, scale, and monitor containerized applications automatically.
+    Orchestration = automatically managing many containers.
+
+01) Why do we need Kubernetes?
+    We use Kubernetes to automate the deployment, scaling, networking, and recovery of containerized applications.
+     It is especially useful when we have many containers running across multiple servers.
+
+02) Docker vs Kubernetes
+    Docker runs containers. Kubernetes manages containers.
+        __________________________________________________________________________________________
+        |  Docker	                                  |   Kubernetes                                |
+        __________________________________________________________________________________________
+        |  Creates/runs containers	                |  Manages containers                         |
+        |  Good for running individual containers   | 	Good for managing many containers         |
+        |  Builds images using Dockerfile	          |  Uses container images                      |
+        |  docker run starts a container	          |  Kubernetes deploys/manages containers      |
+        |  docker ps shows running containers	      |  kubectl get pods shows running Pods        |
+        ___________________________________________________________________________________________
+
+      Docker is used to build and run containerized applications, while Kubernetes is used to orchestrate and manage containers, 
+       including scaling, load balancing, deployment, and recovery.
+
+03) Cluster, Node, and Pod
+        1. Cluster
+              A Kubernetes Cluster is the complete Kubernetes environment.
+        2. Node
+              A Node is a machine inside the Kubernetes cluster.
+              It can be a physical machine or virtual machine.
+              Node = Machine/server where your application can run.
+        3. Pod 
+              This is very important.
+              A Pod is the smallest deployable unit in Kubernetes.
+              Usually, a Pod contains one main application container.
+
+        Easy way to remember 🧠
+        Cluster = Complete Kubernetes environment
+        Node = Machine inside the cluster
+        Pod = Smallest deployable unit that runs your container(s)
+        Container = Your actual packaged application
+
+        A Kubernetes cluster consists of nodes. Nodes are machines that run workloads, and Pods are the smallest deployable 
+         units in Kubernetes that contain one or more containers.
+
+
