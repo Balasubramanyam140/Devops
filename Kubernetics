@@ -88,3 +88,12 @@ ________________________________________________________________________________
                           📦 Pods = Work assigned to workers                      
                       The manager decides what needs to happen and where.                      
                       The workers actually perform the work.
+
+                  Important difference
+                  __________________________________________________________
+                 |   Control Plane         |          	Worker Node          |
+                 |  Manages the cluster	   |     Runs application workloads  |
+                 |   Makes decisions       |    	Follows those decisions    |
+                 |   Schedules Pods	       |     Hosts Pods                  |
+                  __________________________________________________________
+                Monitors the cluster	Runs containers
